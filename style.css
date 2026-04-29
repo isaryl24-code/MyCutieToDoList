@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color:#FDEFF2;
+    padding:10px;
+}
+
+/* Off-White To-Do Box */
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background-color: #FFFCF7;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* To-Do Title */
+.todo-app h2 {
+    text-align: center;
+    display: flex;
+    color: #5A5A5A;
+    margin-bottom: 20px;
+}
+
+/* Input Tasks */
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background: #FDEFF2;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
