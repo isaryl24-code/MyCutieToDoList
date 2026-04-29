@@ -1,3 +1,12 @@
+
+/* Color Pallet:
+ --bg-main: ##FDEFF2 = soft blush background 
+ --card: #FFFCF7 = off - white cards
+ --primary: #F4A9B8 = soft pink (buttons, accents)
+ --secondary: #CFE8D5 = matcha green (progress, success) 
+ --text: #5A5A5A = soft gray text
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +52,7 @@
     margin-bottom: 25px;
 }
 
-.input {
+#task-input {
     flex: 1;
     border: none; 
     outline: none;
@@ -52,8 +61,8 @@
     font-weight: 14px;
 }
 
-.add-task-btn {
-    background-color: #FF6B6B;
+#add-task-btn {
+    background-color: #F4A9B8;
     color: white;
     border: none;
     padding: 10px 20px;
