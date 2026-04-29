@@ -42,3 +42,23 @@
     padding-left: 20px;
     margin-bottom: 25px;
 }
+
+.input {
+    flex: 1;
+    border: none; 
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+.add-task-btn {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
